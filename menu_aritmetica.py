@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+menu
+=======
 #Ejercicio menu calculadora
 import os #importar librerias del sistema
 
@@ -38,3 +41,4 @@ elif opc == 4:
 else : 
 	print("ingrese una opcion valida")
 	
+>>>>>>> fddd6891f34ec57f9ed9154100b88e78a3a88cc4
