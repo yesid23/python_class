@@ -32,7 +32,7 @@ def operacion():
     except:
        clear()
        opera=("error")
-    input.text.set(opera)
+    input_text.set(opera)
 
 
 
@@ -54,8 +54,8 @@ boton8=Button(root,text="8",width=7,height=3,command=lambda:btnClik(8)).place(x=
 boton9=Button(root,text="9",width=7,height=3,command=lambda:btnClik(9)).place(x=180,y=260)
 boton0=Button(root,text="0",width=7,height=3,command=lambda:btnClik(0)).place(x=100,y=340)
 
-botonClear=Button(root,text="CLEAR",width=7,height=3,command=lambda:btnClik("=")).place(x=20,y=340)
-botonIgual=Button(root,text="=",width=7,height=3,command=lambda:Clear()).place(x=180,y=340)
+botonClear=Button(root,text="CLEAR",width=7,height=3,command=lambda:clear()).place(x=20,y=340)
+botonIgual=Button(root,text="=",width=7,height=3,command=operacion).place(x=180,y=340)
 
 botonsum=Button(root,text="+",width=7,height=3,command=lambda:btnClik("+")).place(x=280,y=100)
 botonres=Button(root,text="-",width=7,height=3,command=lambda:btnClik("-")).place(x=280,y=180)
